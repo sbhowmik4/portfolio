@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+/* CSS Reset By sutrisna */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html,
+body,
+#root {
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul,
+ol {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* End Css Reset */
+
